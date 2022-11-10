@@ -11,7 +11,9 @@ mysql> CREATE DATABASE gundogdu_avm;
 mysql> CREATE DATABASE products;
 
 mysql> CREATE USER 'yolgezer'@'localhost' IDENTIFIED BY 'g1b3kc4t';
+
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'yolgezer'@'localhost' WITH GRANT OPTION;
+
 mysql> FLUSH PRIVILEGES;
 
 $ mysql -u username -p gundogdu_avm < gundogdu_avm.sql
